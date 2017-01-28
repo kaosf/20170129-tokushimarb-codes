@@ -1,0 +1,29 @@
+http://qiita.com/repeatedly/items/727b08599d87af7fa671
+https://test-unit.github.io/ja/#test-unit-rr
+https://github.com/rr/rr
+
+より詳細なドキュメント
+https://github.com/rr/rr/blob/master/doc/03_api_overview.md
+
+http://qiita.com/yshr04hrk/items/a47d52a49f2159ff3cef
+
+RSpec
+http://qiita.com/jnchito/items/42193d066bd61c740612
+
+---
+
+curl https://google.com/
+
+cd test-unit
+bundle install --path vendor/bundle
+bundle exec ruby run.rb
+bundle exec ruby test_https_util.rb
+bundle exec ruby test_parse.rb
+bundle exec ruby test_log.rb
+
+cd rspec
+bundle install --path vendor/bundle
+bundle exec ruby run.rb
+bundle exec rspec https_util_spec.rb
+bundle exec rspec parse_spec.rb
+bundle exec rspec log_spec.rb

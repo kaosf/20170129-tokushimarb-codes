@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+
+gem 'test-unit', '3.2.3'
+gem 'test-unit-rr', '1.0.5'

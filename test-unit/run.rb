@@ -1,0 +1,3 @@
+require './log'
+
+puts log
